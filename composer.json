@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Laradevsbd\\Zkteco\\": "src/"
+            "Afilgueira\\Zkteco\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laradevsbd\\Zkteco\\ZktecoServiceProvider"
+                "Afilgueira\\Zkteco\\ZktecoServiceProvider"
             ]
         }
     }

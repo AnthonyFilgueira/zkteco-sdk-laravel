@@ -1,4 +1,6 @@
+
 <?php
+namespace Afilgueira\Zkteco\Http\Library;
 
     function getSizeAttendance($self) {
         /*Checks a returned packet to see if it returned CMD_PREPARE_DATA,
@@ -22,7 +24,6 @@
             
             for ( $i=strlen($hexstr); $i>=0; $i-- ) {
                 $tmp .= substr($hexstr, $i, 2);
-                $i--;
             }
             
             return $tmp;

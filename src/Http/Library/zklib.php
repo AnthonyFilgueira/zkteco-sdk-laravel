@@ -1,5 +1,5 @@
 <?php
-namespace Laradevsbd\Zkteco\Http\Library;
+namespace Afilgueira\Zkteco\Http\Library;
 
 class ZKLib
 {
