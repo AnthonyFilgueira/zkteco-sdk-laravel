@@ -1,5 +1,5 @@
 {
-    "name": "laradevsbd/zkteco-sdk",
+    "name": "afilgueira/zkteco-sdk-laravel",
     "description": "ZKLibrary is PHP Library for ZK Time & Attendance Devices",
     "type": "library",
     "license": "MIT",
@@ -7,10 +7,16 @@
         {
             "name": "Nur Karim",
             "email": "nurkarim772@gmail.com"
+        },
+        {
+            "name": "Anthony Filgueira",
+            "email": "anthonyfilgueira@hotmail.com"
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "illuminate/support": "^12.0"
+    },
     "autoload": {
         "psr-4": {
             "Laradevsbd\\Zkteco\\": "src/"

@@ -1,9 +1,13 @@
 <?php
 
-Route::group(['namespace'=>'Laradevsbd\Zkteco\Http\Controllers'],function (){
-    Route::get('zkteco','ZktecoController@index');
-});
 
-\Illuminate\Support\Facades\Route::get('test',function (){
+
+
+use Laradevsbd\Zkteco\Http\Controllers\ZktecoController;
+
+
+\Route::get('zkteco', [ZktecoController::class, 'index']);
+
+\Route::get('test', function () {
    return "ok";
 });
